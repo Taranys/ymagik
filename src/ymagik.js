@@ -1,3 +1,6 @@
+/**
+ * https://github.com/Taranys/ymagik
+ */
 angular.module('Ymagik', []).directive('ymagik', function ($timeout) {
     var imageMagic = {
         template: '<div>' +
